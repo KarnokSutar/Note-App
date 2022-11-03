@@ -32,6 +32,7 @@ function NoteApp(){
       }
       setLoadNotes(false)
       console.log("loadNotes-useEffect")
+       // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
     
     useInterval(() => {
