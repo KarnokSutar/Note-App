@@ -34,27 +34,3 @@ onInput={(e)=> dispatch(noteActions.onNoteTextChange(e.target.value))}
   
 }
 export default NotePen;
-
-
-{/* <CodeMirror
-value={noteTitle}
-onChange={(value, viewUpdate) => {
-   dispatch(noteActions.onNoteTitleTextChange(value))
-  }}
-  height="10vh"
-  li
-  theme={myTheme}
-  placeholder="Title..."
-  options ={
-{linenumbers:2}
-  }
-/> 
- <CodeMirror
-value={noteText}
-onChange={(value, viewUpdate) => {
-   dispatch(noteActions.onNoteTextChange(value))
-  }}
-  theme={myTheme}
-  height="80vh"
-  placeholder="Your Note..."
-/> */}
