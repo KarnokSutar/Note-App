@@ -1,0 +1,116 @@
+.test{
+    background-color: black;
+    width: 100vh;
+    height: 100vh;
+}
+.testing{
+    background-color: red; 
+    width: 100vh;
+    height: 100vh; 
+}
+.note-editor-title {
+    position: relative;
+    min-width: 300px;
+    max-height: 69px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    .empty-editor {
+      height: calc(100vh);
+    }
+    .editor,
+    .previewer {
+      padding-bottom: 38px;
+      height: 100vh;
+    }
+  }
+  .split {
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+}
+
+.gutter {
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.gutter.gutter-horizontal {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+    cursor: col-resize;
+}
+.none{
+  display: none;
+}
+.note-list-outer{
+  text-align: start;
+  color: aliceblue;
+
+}
+
+// .notelist{
+//   flex: 0 0 auto; position: relative; outline: none;
+//   height: 100vh;
+// }
+// .note-list {
+//   .note-list-each {
+//     border-bottom: 1px solid darken($dark-sidebar, 10%);
+//     color: darken($light-font-color, 10%);
+
+//     &.active:hover .note-options {
+//       color: white;
+//     }
+
+//     .note-category {
+//       color: rgba(255, 255, 255, 0.3);
+//     }
+
+//     &:hover {
+//       background: $dark-sidebar;
+//       .note-options {
+//         color: #888;
+//       }
+//     }
+
+//     &.selected {
+//       background: $primary;
+//       color: white;
+//       border-bottom: 1px solid darken($primary, 5%);
+
+//       &:hover {
+//         .note-options {
+//           color: white;
+//         }
+//       }
+
+//       .note-options {
+//         &.active {
+//           color: white;
+//         }
+//       }
+//       .note-category {
+//         color: rgba(255, 255, 255, 0.7);
+//       }
+//     }
+
+//     .note-options {
+//       &.active {
+//         color: #888;
+//       }
+//     }
+//   }
+// }
+
+.notelist-each {
+  border-bottom: 1px solid darken($dark-sidebar, 10%);
+  color: darken($light-font-color, 10%);
+  padding: 10px;
+  cursor: pointer;}
+
+  .notelist-each:hover{
+    background-color: #888;
+    color: #eee;
+  }
+  .categoriesTitle{
+  color:rgba(255, 255, 255, 0.7)
+  }
