@@ -7,7 +7,7 @@ import 'react-reflex/styles.css'
 
 function App() {
   return (
-  <NoteApp/>
+    <NoteApp />
   );
 }
 
